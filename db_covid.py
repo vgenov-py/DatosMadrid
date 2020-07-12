@@ -12,7 +12,7 @@ def write_data():
         lista = ["hola", "kuga"]
         csv_writer = csv.writer(file, delimiter=",")
         csv_writer.writerow(["fecha", "casos confirmados"])
-        csv_writer.writerow([datetime.date(2020, 5, 25), total])
+        csv_writer.writerow([datetime.date(2020, 5, 26), total])
 
 
 def append_data():
@@ -21,7 +21,7 @@ def append_data():
         csv_append.writerow([datetime.date.today(), int(total)])
 
 
-# append_data()
+append_data()
 
 
 def enter_dicta():

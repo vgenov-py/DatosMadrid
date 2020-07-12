@@ -7,7 +7,6 @@ data = url.json()
 data = data["data"]
 new_data = data[0:199]
 
-
 def get_total_confirmed():
     total = 0
     for confirmed in new_data:
